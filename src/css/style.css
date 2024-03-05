@@ -1,6 +1,63 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+/* inialisation du fichier html */
 html {
+  width: 100%;
+  height: 100%;
   font-family: "Montserrat", sans-serif;
 }
+/* initialisation du body */
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
 
+/* header part */
+header {
+  height: 60px;
+  background-color: #c4c8cb;
+}
+
+/* settting de l'image */
+header img {
+  width: 40px;
+  position: relative;
+  left: 120px;
+  top: 10px;
+}
+
+/* contenu navbar */
+.nav-container {
+  float: right;
+}
+/* contenu ul */
+.nav-container ul {
+  margin: 0;
+}
+/* contenu du li */
+.nav-container ul li {
+  display: inline-block;
+}
+/* liens navbar */
+.nav-container ul li a {
+  color: #000;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+  right: 120px;
+  margin: 0px 0px 0px 20px;
+  padding: 0px 4px 6px 4px;
+}
+
+/* hover navbar */
+.nav-container ul li a:hover {
+  color: #fff;
+  transition: 0.25s ease-in;
+}
+
+/* active du lien */
+#active {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
