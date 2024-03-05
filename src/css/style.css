@@ -17,7 +17,7 @@ body {
 header {
   height: 60px;
   background-color: #c4c8cb;
-  position: sticky;
+  margin: 0;
 }
 
 /* settting de l'image */
@@ -79,4 +79,26 @@ header img {
   background-attachment: fixed;
   height: 100%;
   width: 100%;
+}
+.container-wrapper {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  position: relative;
+  top: 30%;
+}
+.container-wrapper p {
+  text-transform: uppercase;
+  color: #fff;
+  margin: 20px 0px 60px 0px;
+}
+
+h1 {
+  font-size: 68px;
+  color: #fff;
+  text-shadow: 2px 2px #666;
+}
+
+p {
+  font-size: 20px;
 }
