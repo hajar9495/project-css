@@ -17,6 +17,7 @@ body {
 header {
   height: 60px;
   background-color: #c4c8cb;
+  position: sticky;
 }
 
 /* settting de l'image */
@@ -60,4 +61,22 @@ header img {
 #active {
   color: #fff;
   border-bottom: 1px solid #fff;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#container-bg {
+  background: url("../img/img-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
 }
