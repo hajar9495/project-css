@@ -123,14 +123,22 @@ h1 {
   text-shadow: 2px 2px #666;
 }
 
+h2 {
+  font-size: 42px;
+  color: #000;
+}
+
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+hr {
+  width: 30px;
+}
 /* paragraphe */
 p {
   font-size: 20px;
-}
-
-/* autre div */
-#autre {
-  height: 400px;
 }
 
 /* font awesome fb*/
@@ -157,4 +165,54 @@ p {
   font-size: 40px;
   bottom: 100px;
   transform: translate(-50%, -50%);
+}
+
+#introduction-section {
+  margin: 80px auto 0 auto;
+  text-align: center;
+}
+
+#grid-layout-33 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin: 0 auto;
+  gap: 3em;
+}
+
+#grid-layout-33 > div {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 28px;
+  box-shadow: 0px 0px 10px #000;
+  margin: 80px auto 40px auto;
+  /* cursor: pointer; */
+}
+#grid-layout-33 > div:hover {
+  transition: 0.25s ease-in;
+  background-color: #fff;
+}
+
+#grid-layout-33 .fa-solid,
+.fa-brands {
+  font-size: 50px;
+  color: #666;
+}
+
+#grid-layout-33 p {
+  font-size: 16px;
+  color: #666;
+}
+
+#content-video {
+  margin: 0 auto;
+  padding: 80px 0px 0px 0px;
+  text-align: center;
+}
+iframe {
+  margin: 80px 0px 0px 0px;
+  width: 560px;
+  height: 315px;
+  box-shadow: 0px 0px 10px #000;
+  cursor: pointer;
 }
